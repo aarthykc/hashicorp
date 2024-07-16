@@ -38,7 +38,6 @@ class Elevator extends EventEmitter {
 
   openDoors() {
     this.status = 'open';
-    // Simulate door opening delay
     setTimeout(() => {
       this.closeDoors();
     }, 2000);
